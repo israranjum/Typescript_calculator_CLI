@@ -1,0 +1,25 @@
+{
+  "name": "calculator_project_israr",
+  "version": "1.0.0",
+  "description": "1: step one setup project\r step 1 get 1 number from user\r then select operator for add or minus or devide\r     2: add 2 numbers\r     3: multiply 2 number\r     3: minus 2 number \r     4: devide 2 numbers\r step 3 get second number from user\r 4 show result\r 5 repeat process",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.18"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4"
+  }
+}
